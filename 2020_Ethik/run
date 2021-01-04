@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+mkdir -p build/ &&
+	pdflatex --output-directory=build/ main &&
+	biber --input-directory=build/ main &&
+	pdflatex --output-directory=build/ main &&
+	zathura build/main.pdf

@@ -1,0 +1,110 @@
+\documentclass[a4paper]{article}
+
+% Packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[ngerman=ngerman-x-latest]{hyphsubst}
+
+\usepackage[a4paper, inner=2.5cm, outer=2.5cm, top=2.5cm, bottom=2cm, bindingoffset=0cm]{geometry}
+\usepackage{csquotes}
+\usepackage{graphicx}
+
+\usepackage[citestyle=verbose-ibid,giveninits=true,doi=false,eprint=false,isbn=false,backend=biber]{biblatex}
+\addbibresource{bib/main.bib}
+\DeclareNameAlias{default}{family-given}
+\DeclareDelimFormat[bib]{nametitledelim}{\addcolon\space} % Doppelpunkt nach Autor
+
+\graphicspath{{figures/}}
+
+\begin{document}
+
+\title{Wer bekommt das Intensivbett?\\Eine vergleichende Betrachtung unterschiedlicher ethischer Ansätze.}
+\author{Marvin Borner, TGI 12.1}
+\date{\today}
+
+%{\parindent 0cm
+%	\subsection*{Selbstständigkeitserklärung}
+%	Ich erkläre hiermit, dass ich die vorliegende Arbeit selbstständig verfasst
+%	und nur unter Verwendung der angegebenen Quellen und Hilfsmittel angefertigt habe.\\
+%	\vspace{1\baselineskip}
+%
+%	Langenau, den \today \hspace{0.1\linewidth} \includegraphics[width=2cm]{unterschrift}
+%
+%	\vspace{3\baselineskip}
+%
+%	\subsection*{Vorab}
+%	Ich hätte diesen Essay gerne weiter ausformuliert und mit Argumenten ausgestattet, jedoch war dies aufgrund der zeitlichen Bedingungen meinerseits nicht möglich. Ich hoffe, dass dieser Essay trotz dessen Knappheit zufriedenstellend ist.
+%}
+
+\maketitle
+
+% Aufbau: Ansatz 1, Ansatz 2, Vergleich, Wertung, Fazit
+
+%\tableofcontents
+
+%Gerade im Bezug zu den aktuellen Demonstrationen zur Gleichberechtigung aller Rassen und der sowieso verankerten Position des Feminismus und Anti-Sexismus kann man erkennen, dass eine Gleichberechtigung aller Differenzen der Menschen grundsätzlich in der Entscheidung, wie die Intensivbetten verteilt werden sollen, bestehen sollte.
+
+\section{Einleitung}
+Seit dem Ausbruch des Corona-Virus hat inzwischen jedes Land mit dessen Bekämpfung und Handhabung zu tun. Während mehrere Länder bereits die erste Welle überstanden haben, beginnt das Ganze in anderen Ländern nochmal von vorne. Schon in den vergangenen Pandemien, wie der Spanischen Grippe im Jahr 1918-1920, fiel auf, dass das Gesundheitssystem in \textbf{allen} Ländern nicht auf eine Infektionswelle dieses Ausmaßes vorbereitet ist. Während Deutschland beispielsweise inzwischen mit circa 29 Intensivbetten pro 100.000 Einwohner verhältnismäßig recht gut ausgestattet ist, sind Länder wie China und Indien mit nur 2-3 Intensivbetten pro 100.000 Einwohner deutlich schlechter bedient\footcite{statista}. So hat China trotz des Baus von 16 temporären Krankenhäusern allein in Wuhan viele Behandlungen von Corona-Patienten aufgrund mangelnder Intensivbetten abgelehnt\footcite{wuhanclosed}.
+Wenn Ärzte vor einer kritischen Entscheidung stehen, wem nun das Intensivbett gegeben wird, müssen sie viele Faktoren beachten. Sie müssen sowohl den Zustand der Betroffenen, als auch die Wahrscheinlichkeit einer erfolgreichen Behandlung innerhalb kurzer Zeit einschätzen. Die heutigen Gesetze und Erwartungen verlangen viel von den Ärzten, was den sowieso schon hohen Stress der überforderten Ärzte erhöht. Somit wird ein System benötigt, das diese Entscheidung so einfach wie möglich gestaltet, welches aber dennoch moralisch vertretbar und möglichst gerecht für alle Menschen ist.
+Ärzte und Wissenschaftler sprechen teilweise davon, das Maximal-Alter der Behandelten in Krankenhäusern im Notstand auf beispielsweise 80 Jahre zu setzen, um eine Auslastung der Krankenhäuser zu verhindern. Dieses System ist ganz klar problematisch - besonders im ethischen und moralischen Aspekt, da dies nicht nur die Würde der Betroffenen Menschen verletzt, sondern auch diejenigen Menschen diskriminiert, die zwar alt sind, aber trotzdem hohe Überlebenschancen nach einer Behandlung hätten. Für ein moralisch vertretbareres System gibt es verschiedene Ansätze. Ich werde hierbei ausschließlich auf eine deontologische und eine utilitaristische Herangehensweise eingehen. In diesem Essay werde ich diese Ansätze vergleichen und einen praktischen Sinn und Verlauf der Verwendung eines solchen Systems evaluieren.
+
+\section{Situationen}
+Ich werde mich in den folgenden Absätzen auf zwei hypothetische Situationen beziehen, um die Vor- und Nachteile der verschiedenen Ansätze besser darstellen zu können.
+
+\subsection{Situation 1 (S1)}
+In der ersten Situation befindet sich ein kleines Land mit schlechtem Gesundheitssystem im Notzustand, während die Corona-Infektionen täglich exponentiell steigen. Ein Krankenhaus in einer kleinen Stadt ist so stark ausgelastet, dass erst ein neuer Patient behandelt werden kann, wenn ein vorheriger Patient gestorben ist oder entlassen werden kann. Die Ärzte sind überfordert und übermüdet als sie die Meldung von drei neuen Fällen bekommen: Ein alter Mann, eine alte Frau und ein dunkelhäutiger Mann mittleren Alters, welche jeweils eine künstliche Beatmung im Intensivbett benötigen. Da das Krankenhaus im Moment nur ein freies Intensivbett besitzt, müssen die Ärzte entscheiden, wem die Behandlung zur Verfügung gestellt wird.
+
+\subsection{Situation 2 (S2)}
+Diese Situation ist bis auf die betroffenen Personen gleich wie die erste Situation. In diesem Fall gibt es zwei neue Meldungen: Eine junge, rauchende Frau mit Vorerkrankungen und ein gesunder Mann mittleren Alters ohne Vorerkrankungen, aber mit vergangener Inhaftierung aufgrund versuchten Mordes.
+
+% https://blogs.bmj.com/medical-ethics/2020/03/26/dont-let-the-ethics-of-despair-infect-the-intensive-care-unit/ ENDE
+%    neglect the personal and individualised nature of clinical ethics.
+%    Where utilitarianism could be helpful is in helping families to understand the nature of the difficult decisions facing ICU staff.
+
+\section{Utiliaristische Verteilung}
+Der Utilitarismus ist eine konsequentialistische Moralbegründung und beachtet somit nicht die Intention einer Handlung, sondern nur die Konsequenzen, also das Ergebnis. Um die Konsequenzen einer Handlung objektiv einstufen zu können, besagt der Utilitarismus, diejenige Konsequenz zu bevorzugen, die weniger Leid beziehungsweise mehr Glück verursacht.% Diese Herangehensweise wurde in Italien gewählt, wobei das schlechte Ergebnis nicht bedingt auf diese Wahl zurückverfolgt werden kann.
+
+Ein genereller Vorteil des Utilitarismus ist per Definition, dass alle Menschen grundsätzlich gleich behandelt werden, so lange diese als Konsequenz nicht mehr Leid beziehungsweise weniger Glück erzeugen. In S1 gibt es hier infolgedessen zumindest eine Gleichstellung der Rasse, da aufgrund der Rasse im Durchschnitt nicht mehr Leid erzeugt wird. Anders sieht es in diesem Fall bei dem Altersunterschied aus, da ältere Personen im Allgemeinen häufig vorerkrankt sind und ihr Immunsystem so stark geschwächt ist, dass eine Erkrankung schwerere Folgen und Effekte hat und somit eine höhere Wahrscheinlichkeit zum Tod vorliegt - folglich also zu einer höheren Wahrscheinlichkeit mehr Leid erzeugt. Zudem ist dem Utilitarismus zufolge das Leben eines jüngeren Menschen grundsätzlich \enquote{mehr wert} als das eines älteren, da durch ein längeres Restleben im Durchschnitt mehr Glück erzeugt wird. In der Situation S1 würde ein utilitaristischer Arzt ohne weitere Informationen also zuerst den Mann mittleren Alters behandeln. In einer etwas realistischeren Situation, in der nicht alle drei Personen genau die gleichen Symptome aufweisen, muss der Arzt zuerst einschätzen, wie hoch die Wahrscheinlichkeit auf eine geglückte Behandlung ist und inwiefern diese Wahrscheinlichkeit im Verhältnis zu Fakten wie einem Altersunterschied steht. Selbst wenn diese Zahlen jedoch abgewogen wurden, bevorzugt der Utilitarismus ja nicht nur die Handlung, die am meisten Leben rettet, sondern die, die weniger Leid und mehr Glück erzeugt.
+
+So müssten die Ärzte in S2 auch die Wahrscheinlichkeit von zukünftigem Verursachen von Leid, beispielsweise durch das Verletzen oder das Töten eines anderen, des Mannes einschätzen und mit der Wahrscheinlichkeit auf den Fehlschlag der Behandlung der vorerkrankten Frau vergleichen. Während diese ganzen Rechnungen zwar mit Konzepten wie dem Hedonistischen Kalkül vereinfacht werden können, sind diese trotz allem aufwendig, komplex und teilweise nicht eindeutig lösbar.
+
+Hier kann man direkt ein Problem feststellen, da eine komplette utilitaristische Analyse einer Handlung praktisch nicht möglich ist. Dies liegt daran, dass sowohl der vollständige Hintergrund einer Person, wie sein gesundheitlicher Zustand und seine vorherigen Handlungen, als auch die zukünftigen Handlungen nicht genau bestimmbar sind und selbst eine Annäherung an das zukünftige Glück sehr viel Leistung und Nachforschung benötigen würde. Dennoch heißt das nicht, dass der Utilitarismus keine gute Lösung darstellt, sondern nur, dass zwar eine komplette Durchführung nicht möglich ist, aber selbst eine grobe Annäherung zu einer hohen Wahrscheinlichkeit eine zuverlässige Entscheidung liefert.
+
+Insgesamt kann man also sagen, dass dem Utilitarismus zufolge in einem Fall wie S1 - ohne spezifische Nebenfaktoren - diejenige Person ein Intensivbett bekommt, welche die höchste Wahrscheinlichkeit auf eine Genesung besitzt, was in Folge dessen heißt, dass generell jüngere Menschen bevorzugt werden. Diese Herangehensweise wird auch in der Corona-Pandemie in vielen Ländern und Krankenhäusern gewählt, da eine nicht zu gründliche utilitaristische Analyse sehr einfach ist und in bestimmten Situationen wie in S1 innerhalb kurzer Zeit durchführbar ist und trotzdem Ergebnisse liefert, die mit dem Moralverständnis vieler Menschen übereinstimmen und nachvollziehbar sind.
+
+% This larger system is unavoidably **utilitarian, having to make the best use it can of finite resources**.
+
+\section{Deontologische Verteilung}
+In der deontologischen Ethik wird die Handlung im Gegensatz zum Utilitarismus nicht allein aufgrund dessen Konsequenzen, sondern auf der Basis von Prinzipien und Regeln bewertet. Ich werde mich in diesem Kontext durchgehend auf Kants Kategorischen Imperativ, welcher eine deontologische Moralbegründung darstellt, beziehen.
+
+Kant verdeutlicht in der Definition des Kategorischen Imperativs häufig, dass die Würde des Menschens einen \enquote{unvergleichlichen Wert} hat. Da auch Deutschlands Gesetzeslage auf deontologischen Grundsätzen aufgebaut ist, siehe \enquote{Die Würde des Menschen ist unantastbar}, wäre dies gesetzlich gesehen, ohne die nachfolgenden Limitationen zu beachten, der bevorzugte Ansatz.
+
+Grundsätzlich kann man sagen, dass ein deontologischer Ansatz weltweit die Basis der Entscheidungen von Ärzten ist. So ist beispielsweise ein Grundsatz des \textit{General Medical Council}: \enquote{Sie müssen sich in erster Linie um den Patienten kümmern}\footcite{medicalpractice}. Eine deontologische Herangehensweise im Sinne der Medizin heißt laut der Definition der Würde prinzipiell, dass jeder Patient die bestmögliche Versorgung bekommen muss, selbst wenn die Ressourcen knapp sind. Während solch ein Patienten-zentrierter Ansatz in normalen Zeiten mit Sicherheit am vertretbarsten und gerechtesten ist, so ist diese Herangehensweise in Zeiten von Epidemien und Pandemien häufig zu idealistisch und in den meisten Situationen dieser Art nicht möglich.
+
+Der deontologische Ansatz stellt alle Menschen aus Prinzip gleich. Egal ob Hautfarbe, Alter oder Gesundheit, aus Kants Sicht besitzt jeder Mensch die gleiche Würde. Somit würden deontologische Ärzte auch in S1 nicht auf die Erfolgswahrscheinlichkeit der Behandlung achten, da dem Kategorischen Imperativ zufolge alle Menschen das gleiche Recht auf eine bestmögliche Behandlung haben. Jedoch ist das Problem in dieser Situation, dass nur ein Intensivbett zur Verfügung steht. Eine deontologisch halb-akzeptierte Lösung wäre, zwischen den drei Betroffenen Menschen den am meisten Betroffenen im Krankenhaus zu behalten und die anderen beiden auf andere Krankenhäuser aufzuteilen. Jedoch ist es sowohl möglich, dass die drei Personen gleich stark betroffen sind, als auch, dass es - wie in der Situation definiert - in jedem anderen Krankenhaus ähnlich aussieht und eine Aufteilung somit keine Möglichkeit ist. Zudem darf dem Kategorischen Imperativ zufolge \textit{offiziell} gar keine Entscheidung zwischen den Personen getroffen werden, da jeder Mensch das gleiche Recht auf eine \textbf{direkte} Behandlung hat. Diese Situation kann unter den beschriebenen Umständen folglich nicht eindeutig gelöst werden und es müssten nicht-deontologische Kompromisse eingegangen werden.
+
+Ganz genau gleich sieht es auch in der zweiten Situation aus, da auch ein Mensch mit vergangener Inhaftierung die gleiche Würde und somit die gleichen Rechte auf eine Behandlung hat wie eine rauchende Frau.
+
+\section{Vergleich}
+
+Auch wenn die beiden Ansätze nun grob vorgestellt wurden, so gibt es immernoch keine eindeutige Lösung für die moralisch korrekte Verteilung der Intensivbetten. Während der utilitaristische Ansatz beispielsweise nicht nur gezielt Menschengruppen diskriminiert, so widerspricht dieser auch gegen die oftmals deontologische Gesetzeslage in vielen Ländern. Im Gegensatz dadurch stellt eine deontologische Verteilung zwar eine gerechte und Patienten-freundliche Methode dar, aber ist in Situationen mit endlichen Ressourcen wie in der fortlaufenden Pandemie häufig praktisch gesehen unmöglich.
+
+Während der Kategorische Imperativ sich in diesem Kontext im theoretischen Idealismus bewegt, stellt der Utilitarismus eine etwas realistischere Methode dar. Utilitaristen argumentieren, dass alle Krankenhäuser nur eine begrenzte Kapazität an Energie, Konzentration, Ressourcen und Geld besitzen, um alle Patienten zu behandeln. Da diese Ressourcen begrenzt und häufig nicht ausreichend sind, müssen diese so aufgeteilt werden, dass zwar jeder Mensch bestmöglich behandelt wird, um das Glück zu maximieren, aber dadurch auch Kompromisse, wie das Nicht-behandeln eines alten Corona-Patienten, eingegangen werden müssen - alles, um das kollektive Glück der Gesellschaft zu fördern.
+
+Auch wenn der Utilitarismus zu Recht als einzig realistische Möglichkeit scheint, so stellt ein deontologischer Ansatz wie der des Kategorischen Imperativs dennoch eine deutlich gerechtere Methode dar, die in den meisten Situationen einen würdevolleren Umgang mit den Patienten bereitstellt. Dennoch ist der deontologische Ansatz in den beschriebenen Situationen unzureichend und kommt im Gegensatz zum Utilitarismus in Situationen mit begrenzten Ressourcen an seine Grenzen. Trotz allem ist ein deontologischer Ansatz - zumindest in Deutschland - häufig der einzig erlaubte, da die Krankenhäuser sich an die oftmals deontoligschen Gesetze des Landes halten müssen.
+
+\section{Wertung}
+
+Grundsätzlich sollte das Ziel sein, die Ressourcen der Krankenhäuser auf Epidemien und Pandemien vorzubereiten, beziehungsweise bei ausartenden Krankheitsfällen entsprechende Maßnahmen zu ergreifen, sodass die Krankenhäuser nicht zu überfordert sind. Solche Maßnahmen konnte man in Deutschland wortwörtlich miterleben, da durch die Grundsätze wie \enquote{Flatten the curve} und der häuslichen Quarantäne das Corona-Virus so stark eingegrenzt werden konnte, dass es in den deutschen Krankenhäusern nie zu einer Überforderung kam, die eine wider-deontologische Aktion verlangt hat. Wenn jedoch trotzdem eine Überforderung der Krankenhäuser entstehen würde, könnte die Möglichkeit bestehen, dass zusätzliche Gesetze erstellt werden, die eine utilitaristische Verteilung der Intensivbetten erlaubt - auch wenn dies verfassungswidrig wäre. Denn eine utilitaristische Verteilung ist in diesem Kontext die einzige Möglichkeit, mit begrenzten Ressourcen auszukommen.
+
+In Ländern wie Italien, in denen eine Überforderung der Krankenhäuser aufgrund unzureichender Ressourcen und entsprechenden Aktionen der Regierung stattfand, stoß eine Anwendung des Utilitarismus nicht nur auf viel Kritik, sondern auch auf viele Tode. Auch wenn das nicht einzig und allein auf den Utilitarismus zurückzuführen ist, kann erneut gezeigt werden, dass eine entsprechende Vorbereitung deutlich wichtiger ist, als die pure Entscheidung, wer welches Intensivbett bekommt, da eine solche Entscheidung dann gar nicht erst getroffen werden müsste.
+
+\section{Fazit}
+In diesem Essay habe ich die Konflikte der utilitaristischen und deontologischen Entscheidungen in Anbetracht der Verteilung der Intensivbetten in Pandemie-Zeiten dargestellt. Besonders in den aktuellen Umständen ist eine derartige Grundsatz-Diskussion sehr wichtig, da der wichtigste Punkt ist, dass eine allgemeine Zustimmung zu der verwendeten Moralbegründung existiert. Es konnte festgestellt werden, dass beide Ansätze keine eindeutige Lösung für die beschriebenen Situationen, welche zudem die Gesetze und Erwartungen der Menschen einbeziehen, darstellen. Vielmehr sollte das Ziel erstmals sein, Situationen enormer Ressourcenknappheit zu verhindern. Selbst wenn diese Situationen, wie in Italien, dennoch auftreten, so sollten alle Entscheidungen, wenn möglich, nach wie vor auf deontologischer Basis sein, sodass jeder Mensch, der von der Behandlung mittels Intensivbett profitieren würde, diese Behandlung auch bekommt. Nur, wenn deontologische Entscheidungen absolut nicht mehr möglich sind, sollte auf utilitaristische Grundsätze zurückgegriffen werden, sodass diejenigen Menschen, die eine höhere Chance auf das Überleben haben, zuerst behandelt werden. Auch wenn diese würdeverletzende Methode meiner Meinung nach höchst ungerecht ist, gibt es in Situationen dieses Ausmaßes keine moralisch vertretbarere Lösung.
+
+\nocite{*}
+\printbibliography[heading=bibintoc]
+
+\end{document}
