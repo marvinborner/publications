@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+if [ $1 = "full" ]; then
+	mkdir -p build/ &&
+		pdflatex --output-directory=build/ main &&
+		biber --input-directory=build/ main &&
+		pdflatex --output-directory=build/ main &&
+		zathura build/main.pdf
+else
+	mkdir -p build/ &&
+		pdflatex --output-directory=build/ main &&
+		zathura build/main.pdf
+fi
